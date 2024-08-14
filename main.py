@@ -14,4 +14,4 @@ class Circulo:
         self.radio = radio  # inicialización de la variable radio
 
     def area(self):
-        pass # implementación de la función con la forula de área de un círculo
+        return self.pi * (self.radio ** 2)  # implementación de la función con la forula de área de un círculo
