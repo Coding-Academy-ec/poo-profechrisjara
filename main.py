@@ -4,7 +4,7 @@ class Rectangulo:
         self.altura = altura
 
     def area(self):
-        pass # implementación de la función con la forula de área de un rectángulo
+        return self.base * self.altura  # implementación de la función con la forula de área de un rectángulo
 
 
 class Circulo:
